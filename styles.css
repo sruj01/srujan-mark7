@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+:root{
+  --primary-color: #3730A3;
+  --secondary-color: #312E81;
+}
+
+.navi{
+  font-family: 'MedievalSharp', cursive;
+  color: var(--primary-color)
+}
+
+.container{
+ max-width: 750px;
+ margin: auto;
+ text-align: center;
+ margin-top: 2rem;
+}
+
+#txt-input{
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  height: 15vh;
+}
+
+.img-border{
+  border-style: double;
+  border-width: thick;
+  border-color: var(--primary-color);
+}
+
+#output{
+  display: block;
+  margin: auto;
+  border-style: double;
+  border-color: black;
+  height: 15vh;
+  width: 450px;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 20px;
+}
+#btn-translate{
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  border-color: var(--secondary-color);
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin: auto;
+  padding: 0.6rem 1.6rem;
+}
