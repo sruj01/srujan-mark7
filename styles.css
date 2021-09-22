@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 body{
 font-family: 'Raleway', sans-serif;
+background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700422345.jpg");
 }
 
 :root{
@@ -22,18 +23,22 @@ font-family: 'Raleway', sans-serif;
 }
 
 #txt-input{
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   display: block;
   height: 15vh;
+  max-width: 500px;
+  border: 2px solid;
 }
 
-.img-border{
+.avatar-img{
   border-style: double;
   border-width: thick;
   border-color: var(--primary-color);
 }
-
+#human-img{
+  border: 2px solid;
+}
 #output{
   display: block;
   margin: auto;
@@ -45,6 +50,7 @@ font-family: 'Raleway', sans-serif;
   text-align: center;
   font-family: 'MedievalSharp', cursive;
   font-size: 20px;
+  background-color: white;
 }
 #btn-translate{
   background-color: var(--primary-color);
